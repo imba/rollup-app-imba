@@ -1,8 +1,8 @@
-# Imba v2 Alpha Hello World
+# Imba v2 (alpha) Hello World Example
  
 ```
-npm install
-npm run watch
+yarn # npm install
+yarn watch # npm run watch
 ```
 
 Open the `index.html` in the browser.
