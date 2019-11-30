@@ -1,8 +1,8 @@
-# imba2-hello-world
+# Imba v2 Alpha Hello World
  
 ```
 npm install
 npm run watch
 ```
 
-Visit the index.html in browser
+Open the `index.html` in the browser.
