@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "imbac --standalone index.imba",
-    "watch": "imbac -w --standalone index.imba"
+    "watch": "imbac -w --standalone index.imba",
+    "check-version": "imbac --version"
   },
   "dependencies": {
     "imba": "^2.0.0-alpha.10"
