@@ -4,6 +4,6 @@
     "watch": "imbac -w --standalone index.imba"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.9"
+    "imba": "^2.0.0-alpha.10"
   }
 }
