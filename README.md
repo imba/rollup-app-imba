@@ -7,4 +7,4 @@ yarn # npm install
 yarn watch # npm run watch
 ```
 
-Open the `index.html` in the browser.
+Open the `public/index.html` in the browser.

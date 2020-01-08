@@ -4,9 +4,11 @@ p {
 }
 ###
 
+import './app-button'
+
 var counter = 0
 
-tag hello-world
+tag app-root
 	def incr
 		counter++
 
@@ -14,7 +16,4 @@ tag hello-world
 		<self>
 			<p> "Hello there!!"
 			<p> "Count is {counter}"
-			<button :click.incr> "increment"
-
-
-imba.mount <hello-world>
+			<app-button :click.incr> "increment"

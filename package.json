@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "build": "imbac --standalone index.imba",
-    "watch": "imbac -w --standalone index.imba",
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
     "check-version": "imbac --version"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.10"
+    "imba": "^2.0.0-alpha.13"
+  },
+  "devDependencies": {
+    "rollup": "^1.28.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
