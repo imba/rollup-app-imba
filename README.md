@@ -15,7 +15,10 @@ Want to know the status? Check: [Current status of Imba 2.0](https://github.com/
 
 ## Development
 
-Get started by running the following commands
+Click [Use this
+template][1] on GitHub to create a new repository with this template.
+
+When you have the code get started by running the following commands
 
 ```
 yarn # npm install
