@@ -6,7 +6,7 @@
     "check-version": "imbac --version"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.18"
+    "imba": "^2.0.0-alpha.19"
   },
   "devDependencies": {
     "parcel": "^1.12.4",
