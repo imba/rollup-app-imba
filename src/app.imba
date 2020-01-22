@@ -1,19 +1,31 @@
-### css scoped
-p {
-	color: red;
-}
-###
+import Router from './router/router'
 
-import './app-button'
+tag app-page
 
-var counter = 0
+	def render
+		<self> "Something inside page {@name}"
 
-tag app-root
-	def incr
-		counter++
+tag about-page < app-page
 
 	def render
 		<self>
-			<p> "Hello there!"
-			<p> "Count is {counter}"
-			<app-button :click.incr> "increment"
+			"Something inside page {@name}"
+			<div route='more'>
+				<div> "More info here"
+
+tag categories-page < app-page
+
+	def render
+		<self> "Categories here"
+
+tag app-root
+	def render
+		<self>
+			<nav.main>
+				<a route-to='/about'> 'About'
+				<a route-to='/about/more'> 'More'
+				<a route-to='/categories'> 'Categories'
+			<about-page name='about' route='/about'>
+			<categories-page name='categories' route='/categories'>
+
+# imba.mount <app-root router=Router.new>

@@ -4,6 +4,8 @@ public/*.imba.js.map
 
 .DS_Store
 
+src/*.js
+
 # Logs
 logs
 *.log
