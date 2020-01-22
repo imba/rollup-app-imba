@@ -22,9 +22,10 @@ When you have the code get started by running the following commands
 
 ```
 yarn # npm install
-yarn watch # npm run watch
+yarn start # npm start
 ```
 
-Open the url printed by `yarn watch` in the browser. This is automatically configured with hot module reloading
+Open the url shown by `yarn start` output in the browser.
+This is automatically configured with hot module reloading
 
 [1]: https://github.com/imba/imba2-hello-world/generate

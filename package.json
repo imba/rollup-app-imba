@@ -1,17 +1,12 @@
 {
   "scripts": {
-    "build": "rollup -c",
-    "watch": "SERVE=1 rollup -c --watch",
+    "build": "imba-rollup",
+    "start": "imba-rollup --watch --serve --hmr",
     "check-version": "imbac --version"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.20"
+    "imba": "^2.0.0-alpha.20",
+    "imba-rollup": "^1.0.2"
   },
-  "devDependencies": {
-    "rollup": "^1.28.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-livereload": "^1.0.4",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-serve": "^1.0.1"
-  }
+  "devDependencies": {}
 }
