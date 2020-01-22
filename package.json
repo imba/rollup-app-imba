@@ -1,8 +1,7 @@
 {
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c --watch",
-    "serve": "parcel public/index.html",
+    "watch": "SERVE=1 rollup -c --watch",
     "check-version": "imbac --version"
   },
   "dependencies": {
@@ -12,6 +11,8 @@
     "parcel": "^1.12.4",
     "rollup": "^1.28.0",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1"
   }
 }

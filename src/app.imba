@@ -14,6 +14,6 @@ tag app-root
 
 	def render
 		<self>
-			<p> "Hello there!!"
+			<p> "Hello there"
 			<p> "Count is {counter}"
 			<app-button :click.incr> "increment"

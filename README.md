@@ -25,8 +25,6 @@ yarn # npm install
 yarn watch # npm run watch
 ```
 
-Open the `public/index.html` in the browser.
-
-Run `yarn serve` to start web server with hot module reloading
+Open the url printed by `yarn watch` in the browser. This is automatically configured with hot module reloading
 
 [1]: https://github.com/imba/imba2-hello-world/generate
