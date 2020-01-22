@@ -8,7 +8,6 @@
     "imba": "^2.0.0-alpha.20"
   },
   "devDependencies": {
-    "parcel": "^1.12.4",
     "rollup": "^1.28.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-livereload": "^1.0.4",
