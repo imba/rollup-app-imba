@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "imba": "^2.0.0-alpha.20",
-    "imba-rollup": "^1.0.2"
+    "imba-rollup": "^1.0.3"
   },
   "devDependencies": {}
 }
