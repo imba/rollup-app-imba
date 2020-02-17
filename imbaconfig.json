@@ -1,6 +1,6 @@
 {
 	"entries": [{
-		"input": "./src/app.imba",
+		"input": "./src/app-root.imba",
 		"output": {
 			"file": "./public/app.imba.js",
 			"format": "esm",
