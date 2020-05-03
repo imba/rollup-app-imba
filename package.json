@@ -5,8 +5,8 @@
     "check-version": "imbac --version"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.41",
-    "imba-rollup": "^2.0.0-alpha.31"
+    "imba": "^2.0.0-alpha.45",
+    "imba-rollup": "^2.0.0-alpha.42"
   },
   "devDependencies": {}
 }
