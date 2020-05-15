@@ -1,6 +1,5 @@
-tag app-button < button
-
+tag app-button
 	def render
 		<self>
-			<span> "Button:"
-			<slot> "Button"
+			<button>
+				<slot> "Click Me"
