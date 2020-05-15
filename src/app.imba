@@ -15,30 +15,22 @@ tag app-root
 				<span.reset @click=(do counter = 0)> "reset"
 	### css
 	:root {
-		--brand: gold;
-		--bg: hsl( 248, 65%, 8% );
-		--fg: white;
-		--gray: whitesmoke;
+		--light: white;
+		--dark: hsl( 248, 65%, 14% );
 	}
 	
 	body {
-		background-color: whitesmoke;
-		}
-	.logo {
-		width: 110px;
-		height: 35px;
-		margin: 30px 0;
-		
+		background-color: var(--dark);
 	}
 	.box {
 		display: block;
-		background-color: var(--fg);
+		background-color: var(--light);
 		width: 150px;
 		text-align: center;
 		padding: 20px;
 		border-radius: 5px;
 		margin: 0 auto;
-		font-family:Arial, Helvetica, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		padding: 10px 10px 30px;
 	}
 	.box {
@@ -46,12 +38,13 @@ tag app-root
 			border: 0;
 			padding: 5px;
 			border-radius: 5px;
-			border: 2px solid var(--gray);
+			border: 2px solid var(--dark);
 			color: var(--bg);
-			background-color: var(--fg);
+			background-color: var(--light);
 			&:hover {
-				background-color: var(--gray);
+				background-color: var(--dark);
 				cursor: pointer;
+				color: var(--light)
 			}
 		}
 	} 
