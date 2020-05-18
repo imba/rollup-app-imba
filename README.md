@@ -11,10 +11,10 @@ Some of the amazing improvements to the next iteration of Imba are
 For a list of other updates read: [Imba 2 - a new age](https://github.com/imba/imba/pull/258) & [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
 
 ## Development
-Clone this repository into your desired directory.
+Clone this repository into your desired directory. Replace PROJECT_NAME with your desired folder name, or remove for default "template" name.
 
 ```
-git clone https://github.com/imba/template.git FOLDERNAME
+git clone https://github.com/imba/template.git PROJECT_NAME
 ```
 
 Install dependencies
