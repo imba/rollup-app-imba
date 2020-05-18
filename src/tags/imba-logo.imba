@@ -1,8 +1,8 @@
 tag imba-logo
 	prop logoColor = "gold"
 	css &
-		w:80px
-		my:5
+		w:200px
+		my:10
 	def render
 		<self>
 			<svg width="100%" height="100%" viewBox="0 0 1402 519" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">

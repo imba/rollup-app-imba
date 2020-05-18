@@ -7,7 +7,7 @@ tag button-add
 		cursor:pointer
 		border: none;
 		fw:bold 
-		text:lg
+		font-size:2xl
 	def render
 		<self>
 			<button>

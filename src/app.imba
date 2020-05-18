@@ -6,21 +6,23 @@ tag app-card
 	css &
 		bg:white 
 		shadow:xl 
-		w:150px 
-		py:3
+		w:300px 
+		py:10
 		radius:1
 		layout:block
 		text-align:center  
 		font-family:sans-serif 
 		font-weight:bold
-
+		& .total
+			font-size:6xl
 	css .reset 
 		display:block 
-		my:1
+		my:3
 		c:gray400 
 		c.hover:gray500 
 		cursor:pointer
-		font-size: .6em;
+		font-size:base
+	
 	def incr
 		counter++
 	def render
