@@ -12,9 +12,8 @@ Some of the amazing improvements to the next iteration of Imba are
 
 For a list of other updates read: [Imba 2 - a new age](https://github.com/imba/imba/pull/258) & [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
 
-## Development
+## Installation
 Clone this repository into your desired directory. Replace PROJECT_NAME with your desired folder name, or remove for default "template" name.
-
 
 ```
 git clone https://github.com/imba/template.git PROJECT_NAME
@@ -26,20 +25,21 @@ yarn
 # or 
 npm install
 ```
-Then start your local server.
+Start your local server.
 ```
 yarn start 
 #or 
 npm start
 ```
-Open the url shown in the terminal in the browser.
+Open the server url in the browser.
 
 ```
 # default
 http://localhost:10001
 ```
+Have fun!
 
-This project is automatically configured with hot module reloading.
-Enjoy
+ps. This project is automatically configured with hot module reloading.
+
 
 [1]: https://github.com/imba/template/generate
