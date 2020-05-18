@@ -1,6 +1,8 @@
-# Imba v2 (alpha) Hello World Example [![Netlify Status](https://api.netlify.com/api/v1/badges/57f0ad52-688e-4269-8cb1-77c32b61ee00/deploy-status)](https://app.netlify.com/sites/imba2-hello-world/deploys)
+# Imba 2 Template [![Netlify Status](https://api.netlify.com/api/v1/badges/57f0ad52-688e-4269-8cb1-77c32b61ee00/deploy-status)](https://app.netlify.com/sites/imba2-hello-world/deploys)
 
-Template for a Imba v2 alpha project. You are running a bleeding 🩸edge project 👨🏾‍🚀👩🏼‍🚀. Expect bugs and report them❗
+A local project starter template for a Imba v2-alpha.
+
+> You are running a bleeding 🩸edge project 👨🏾‍🚀👩🏼‍🚀. Expect bugs and report them❗
 
 Some of the amazing improvements to the next iteration of Imba are
 - Tags now compile to native web components 🤯
@@ -12,6 +14,7 @@ For a list of other updates read: [Imba 2 - a new age](https://github.com/imba/i
 
 ## Development
 Clone this repository into your desired directory. Replace PROJECT_NAME with your desired folder name, or remove for default "template" name.
+
 
 ```
 git clone https://github.com/imba/template.git PROJECT_NAME
