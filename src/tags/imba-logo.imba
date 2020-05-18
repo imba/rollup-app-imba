@@ -1,5 +1,5 @@
 tag imba-logo
-	prop logoColor = "gold"
+	prop logoColor = "rgb(246, 224, 94)"
 	css &
 		w:200px
 		my:10
