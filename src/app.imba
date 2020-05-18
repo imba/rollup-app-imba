@@ -45,4 +45,5 @@ Smart styles Documentation [WIP]
 https://github.com/imba/imba.io/blob/v2-styles/content/articles/styling.md
 https://github.com/imba/imba.io/blob/v2-styles/content/guides/15-styling.md
 https://github.com/imba/imba/blob/master/src/compiler/styler.imba
+https://github.com/imba/imba/pull/362
 ###
