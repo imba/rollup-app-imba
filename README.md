@@ -8,7 +8,7 @@ Some of the amazing improvements to the next iteration of Imba are
 - Support for slots
 - Smart Styles [latest PR info](https://github.com/imba/imba/pull/362)
 
-For a list of updates read: [Imba 2 - a new age](https://github.com/imba/imba/pull/258) & [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
+For a list of other updates read: [Imba 2 - a new age](https://github.com/imba/imba/pull/258) & [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
 
 ## Development
 Clone this repository into your desired directory.
