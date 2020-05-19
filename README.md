@@ -10,36 +10,43 @@ Some of the amazing improvements to the next iteration of Imba are
 - Support for slots
 - Smart Styles [latest PR info](https://github.com/imba/imba/pull/362)
 
-For a list of other updates read: [Imba 2 - a new age](https://github.com/imba/imba/pull/258) & [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
+For a list of other updates read: 
+- [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
+- [Imba 2 - a new age](https://github.com/imba/imba/pull/258)
 
 ## Installation
-Clone this repository into your desired directory. Replace PROJECT_NAME with your desired folder name, or remove for default "template" name.
+
+On GitHub you can use this repository as a template for new projects, just click [Use this template][0].
+
+Alternatively clone this repository into your desired directory. Replace `PROJECT_NAME` with your desired folder name, or remove for default "template" name.
 
 ```
 git clone https://github.com/imba/template.git PROJECT_NAME
 ```
 
-Install dependencies
-```
-yarn 
-# or 
-npm install
-```
-Start your local server.
-```
-yarn start 
-#or 
-npm start
-```
-Open the server url in the browser.
+## Running the App
+
+The commands below assume you are using either yarn or npm (not both).
+
+### Install the Dependencies
 
 ```
-# default
-http://localhost:10001
+yarn # npm install
 ```
+
+### Start the Server
+
+```
+yarn start # npm start
+```
+
+To see the app running open [http://localhost:10001] [0] in the browser.
+
 Have fun!
 
-ps. This project is automatically configured with hot module reloading.
+PS: This project is automatically configured with hot module reloading.
 
+
+[0]: http://localhost:10001
 
 [1]: https://github.com/imba/template/generate
