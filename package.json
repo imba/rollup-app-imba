@@ -2,6 +2,7 @@
   "scripts": {
     "build": "imba-rollup",
     "start": "imba-rollup --watch --serve --hmr",
+    "dev": "imba-rollup --watch --serve --hmr",
     "check-version": "imbac --version"
   },
   "dependencies": {
