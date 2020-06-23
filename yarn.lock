@@ -198,10 +198,10 @@ glob@^7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-imba-rollup@^2.0.0-alpha.42:
-  version "2.0.0-alpha.42"
-  resolved "https://registry.yarnpkg.com/imba-rollup/-/imba-rollup-2.0.0-alpha.42.tgz#797f3bf97a25f91c2e23c92e05318f7f975260ca"
-  integrity sha512-xdYVwODOJuCfk1mr1pnznmkKr56VLqVoj6nMx6WXwevtgyX32w9f+YNmBe3kjgq03HG7ZXT2IdODAhWtOAcmQA==
+imba-rollup@^2.0.0-alpha.57:
+  version "2.0.0-alpha.57"
+  resolved "https://registry.yarnpkg.com/imba-rollup/-/imba-rollup-2.0.0-alpha.57.tgz#bd85408887a3aad3f497fcde64942c37b6242318"
+  integrity sha512-iZfC/jScCgLB228NlHVhCVJkzLyX8qnfAO8aDf1Bet7txg+GXBZiP/iFpMmA3CBJ1m4NCI5lmAh85UnsI2WAJA==
   dependencies:
     "@rollup/plugin-alias" "^3.0.1"
     "@rollup/plugin-commonjs" "^11.0.2"
@@ -215,10 +215,10 @@ imba-rollup@^2.0.0-alpha.42:
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-serve "^1.0.1"
 
-imba@^2.0.0-alpha.49:
-  version "2.0.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.49.tgz#d619b00f6e8db581d3d8fecf81838946a252730d"
-  integrity sha512-DqZ3swyyx7Ht3Z7LoRITFu2p3DOrmzYSsIm0sh4wHkiYAzFGicYmRsb3wMXIAujJpkkS97fW/e7NdRJsrxTT1Q==
+imba@^2.0.0-alpha.62:
+  version "2.0.0-alpha.62"
+  resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.62.tgz#fb86e568f15525a4eabde798ce16d6a0d7738969"
+  integrity sha512-fK4G7UQWN42vTo6GvSOc0glJHWg2VJ1cYD6cyFCojWqPwB83+0K4JnaUt4vJXVf8lK8ZTYor2A8A0jjC7gPSXA==
 
 inflight@^1.0.4:
   version "1.0.6"
