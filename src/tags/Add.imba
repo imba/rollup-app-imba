@@ -1,17 +1,22 @@
+
+
 export tag Add
 	def render
 		<self>
 			<button>
 				<slot> "click me"
 	css button
-		radius:2 py:1 px:2
-		color:gray2 @hover: gray1
-		w:100%
-		cursor: pointer border: none;
-		font-size: 2xl
-		bg:purple7 @hover:blue6 @active:blue6
+		1depth: 5px @hover: 6px @active: 3px
+		--text: gray2 @hover: gray1
+		--color: purple7 @hover: purple6 @active: purple7
+		--shade: purple9 @hover: purple8 @active: purple9
+		bg: var(--color)
+		shadow: 0px 1depth var(--shade)
+		color: var(--text)
 		transition: all .08s
-
-		bg:purple7 @hover:purple6 @active:purple7
-		shadow: 0px 5px purple9 @hover: 0px 6px purple8 @active: 0px 3px purple9
-		transform: translateY(-5px) @hover:translateY(-6px) @active: translateY(-3px)
+		transform: translateY(-1depth)
+		
+		
+		radius:2 py:1 px:2
+		w:100%
+		font-size: 2xl
