@@ -1,5 +1,7 @@
 import {Add} from './tags/Add'
 import {Logo} from './tags/Logo'
+import confetti from 'canvas-confetti'
+
 let counter = 0
 ### 
 Imba has a revolutionary styling system. Think of a pre-processor, mixed with a css utility framework like tailwind, mixed with javascript.
@@ -43,20 +45,28 @@ This Card component could be in it's own document,
 but we're just demonstrating that you may have multiple tags in a single document.
 ###
 tag Card
+	prop interval
+	def randomInRange min, max
+		Math.random() * (max - min) + min
 	def incr
 		counter++
+		if (counter % 10) is 0
+			confetti(origin:{y: .2})
+		console.log "increase to {counter}"
+	def reset
+		counter = 0
+		console.log "reset to {counter}"
 	def render
 		<self>
-			<h1.total> counter
-			<Add @click.incr> "add"
-			<h3.reset @click=(do counter = 0)> "reset"
+			<Add$confetti @click.incr> "{counter}"
+			<span.reset  @click.incr> "reset"
 	css &
 		bg: white ff: sans shadow: xl
-		w:300px py:3em px:2em radius: 2radius
+		w:300px py:2em px:2em radius: 2radius
 		display: flex fld: column jc: center ai: middle
-		& .total
-			color: gray9 fs:3em	mt:0px
 		& .reset
+			fs: 2xl
+			fw: bold
 			color: gray4 @hover: purple6 @active: purple8 
 			cursor: pointer user-select: none
 
