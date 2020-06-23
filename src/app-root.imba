@@ -58,7 +58,7 @@ tag Card
 		console.log "reset to {counter}"
 	def render
 		<self>
-			<Add$confetti @click.incr> "{counter}"
+			<Add @click.incr> "{counter}"
 			<span.reset  @click.reset> "reset"
 	css &
 		bg: white ff: sans shadow: xl
