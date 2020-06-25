@@ -51,13 +51,11 @@ This Card component could be in it's own document,
 but we're just demonstrating that you may have multiple tags in a single document.
 ###
 tag Card
-	prop interval
-	def randomInRange min, max
-		Math.random() * (max - min) + min
 	def incr
 		counter++
 		if (counter % 10) is 0
 			confetti(origin:{y: .2})
+			console.log "Hurray!"
 		console.log "increase to {counter}"
 	def reset
 		counter = 0
