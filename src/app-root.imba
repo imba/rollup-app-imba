@@ -15,10 +15,12 @@ css @root, body
 	box-sizing: border-box
 
 ###
-the <app-root> component is explicitly specified in the public/index.html file.
-Any component placed inside of the app-root component, will be injected into the dom.
-As you can see we have a Logo component and a Card component inside of <self> which is the <app-root> component itself.
-The <Logo> comported is imported from an external module. The <Card> Component is declared in the same document.
+The <app-root> component is explicitly coded into the body of the public/index.html file.
+Any component then placed inside of the app-root component, will be injected into the dom.
+As you can see we have a <Logo> component and a <Card> component inside of <self> which is the <app-root> component itself.
+The <Logo> component is imported from a custom module found in the src/tags directory. 
+The <Card> Component is declared lower in this same document to demonstrate that you can create multiple components in a single document.
+You could create your entire app in a single document if you preferred. And components don't need to be created in any particular order.
 ###
 
 tag app-root
@@ -27,18 +29,22 @@ tag app-root
 			<Logo>
 			<Card>
 	###
-	Here we have some scoped CSS. Any css declared within a tag component is scoped.
+	Here we have some scoped CSS. Any css declared within a tag component is scoped to that component.
+	The style will not trickle down to elements within nested components. 
 	Scoped css will spare you a lot of classes and ID's to style what you want to style.
-	And it will help separate your concerns by components, rather than by technologies.
-	All css properties and values are supported in Imba styles, but the most commonly used ones have a shorthand.
+	And by plaing your styles within your component, it will help you separate concerns by components, rather than by technologies.
+	All css properties and values are supported in Imba styles, but the most commonly used ones have a short aliases.
 	For example: background-color -> bg, flex-direction -> fld, align-items -> ai, etc. 
-	`&` stands for "self". It the selector for the app-root component itself. 
+	`&` is the selector for the component itself. 
 	See if you can tell what styles are being applied.
 	###
 	css &
-		display: flex fld: column ai:center	
+		display: flex  
+		fld: column  
+		ai:center
 		ta:center
-		bg:gray9 min-height: 100vh
+		bg:gray9 
+		min-height: 100vh
 
 ###
 This Card component could be in it's own document, 
