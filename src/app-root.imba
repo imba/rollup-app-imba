@@ -4,7 +4,7 @@ import confetti from 'canvas-confetti'
 
 let counter = 0
 ### 
-Imba has a revolutionary styling system. Think of a pre-processor, mixed with a css utility framework like tailwind, mixed with javascript.
+Imba has a revolutionary styling syntax. Think of a pre-processor, mixed with a css utility framework like tailwind, mixed with javascript.
 Your styles will be compiled at build time, and there are no un-used styles or classes in your build.
 The styles below are applied to the root and the body, and they are in the global scope because they are at the root level of the document.
 And by the way, closing declarations with colons is optional.

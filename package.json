@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "canvas-confetti": "^1.2.0",
-    "imba": "^2.0.0-alpha.63",
+    "imba": "^2.0.0-alpha.66",
     "imba-rollup": "^2.0.0-alpha.57"
   },
   "devDependencies": {}
