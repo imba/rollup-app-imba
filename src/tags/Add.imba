@@ -17,11 +17,11 @@ export tag Add
 		bg: var(--color)
 		transition: all .20s
 		transform: translateY(-2depth)
-		radius: 100%
-		h: 100px w: 100px
+		radius: 50px
+		h: 100px min-width: 100px
 		my: 2em
-		box-shadow:0 0 0 1px purple7 inset, 0 0 0 .25depth purple5/15 inset, 0 2depth 0 0 purple8, 0 2depth 0 1px purple5/40, 0 2depth 2depth 1px purple5/30
-		box-shadow@active: 0 0 0 1px purple7 inset, 0 0 0 .25depth purple7/15 inset, 0 0 0 1px purple7/40
+		bs:0 0 0 1px purple7 inset, 0 0 0 .25depth purple5/15 inset, 0 2depth 0 0 purple8, 0 2depth 0 1px purple5/40, 0 2depth 2depth 1px purple5/30
+		bs@active: 0 0 0 1px purple7 inset, 0 0 0 .25depth purple7/15 inset, 0 0 0 1px purple7/40
 		& span 
 			fs:5xl
 			fw: bold

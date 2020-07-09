@@ -24,8 +24,15 @@ You could create your entire app in a single document if you preferred. And comp
 ###
 
 tag app-root
+	css %app
+		display: flex
+		fld: column  
+		ai:center
+		ta:center
+		bg:gray9
+		min-height: 100vh
 	def render
-		<self>
+		<self%app>
 			<Logo>
 			<Card>
 	###
@@ -38,13 +45,6 @@ tag app-root
 	`&` is the selector for the component itself. 
 	See if you can tell what styles are being applied.
 	###
-	css &
-		display: flex  
-		fld: column  
-		ai:center
-		ta:center
-		bg:gray9 
-		min-height: 100vh
 
 ###
 This Card component could be in it's own document, 
@@ -65,14 +65,14 @@ tag Card
 			<Add @click.incr> "{counter}"
 			<span.reset  @click.reset> "reset"
 	css &
-		bg: white ff: sans shadow: xl
-		w:300px py:2em px:2em radius: 2radius
-		display: flex fld: column jc: center ai: middle
+		bg:white ff:sans shadow:xl
+		min-width:300px py:2em px:2em br:2
+		display:flex fld:column ai:justify
 		& .reset
-			fs: 2xl
-			fw: bold
-			color: gray4 @hover: purple6 @active: purple8 
-			cursor: pointer user-select: none
+			fs:2xl
+			fw:bold
+			color:gray4 @hover:purple6 @active:purple8 
+			cursor:pointer user-select:none
 
 ### Learn more about Imba 2 (Work In Progress Documentation)
 https://v2.imba.io/
