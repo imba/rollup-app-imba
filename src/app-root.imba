@@ -1,6 +1,5 @@
 import {Add} from './tags/Add'
 import {Logo} from './tags/Logo'
-import confetti from 'canvas-confetti'
 
 let counter = 0
 ### 
@@ -54,7 +53,6 @@ tag Card
 	def incr
 		counter++
 		if (counter % 10) is 0
-			confetti(origin:{y: .2})
 			console.log "Hurray!"
 		console.log "increase to {counter}"
 	def reset
