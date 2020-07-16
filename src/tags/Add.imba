@@ -1,9 +1,9 @@
 ###
-  box-shadow: 0 0 0 1px #c63702 inset,
-              0 0 0 (@btn-box-height / 4) rgba(255, 255, 255, 0.15) inset,
-              0 @btn-box-height 0 0 #C24032,
-              0 @btn-box-height 0 1px rgba(0, 0, 0, 0.4),
-              0 @btn-box-height @btn-box-height 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 0 1px #c63702 inset,
+	0 0 0 (@btn-box-height / 4) rgba(255, 255, 255, 0.15) inset,
+	0 @btn-box-height 0 0 #C24032,
+	0 @btn-box-height 0 1px rgba(0, 0, 0, 0.4),
+	0 @btn-box-height @btn-box-height 1px rgba(0, 0, 0, 0.5);
 ###
 export tag Add
 	def render
