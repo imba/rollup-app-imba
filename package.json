@@ -6,7 +6,6 @@
     "check-version": "imbac --version"
   },
   "dependencies": {
-    "canvas-confetti": "^1.2.0",
     "imba": "^2.0.0-alpha.69",
     "imba-rollup": "^2.0.0-alpha.57"
   },

@@ -72,6 +72,9 @@ tag Card
 			color:gray4 @hover:purple6 @active:purple8 
 			cursor:pointer user-select:none
 
+
 ### Learn more about Imba 2 (Work In Progress Documentation)
 https://v2.imba.io/
 ###
+
+imba.mount <app-root>
