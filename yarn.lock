@@ -215,10 +215,10 @@ imba-rollup@^2.0.0-alpha.57:
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-serve "^1.0.1"
 
-imba@^2.0.0-alpha.69:
-  version "2.0.0-alpha.69"
-  resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.69.tgz#4833c1cf039fa882c33900d29e805c3fd74b9304"
-  integrity sha512-kBVZIS7fBtAj7fsQiuenE42oxBFuiiqA9ax/vd+lOXfZArIeW9LTVdtkCrlbWvs4NTy06dryWMXvNmwDXUsNhA==
+imba@^2.0.0-alpha.84:
+  version "2.0.0-alpha.84"
+  resolved "https://registry.yarnpkg.com/imba/-/imba-2.0.0-alpha.84.tgz#ee7a865c8df95c01ac671af9f62165c2b8399645"
+  integrity sha512-YhNirsLvCYY+4KcajtLQ7Jw6kdjeS1c4sPBZjbzH5uzrl0CtB/FxkLJ7cdGPQQUbpzUv+iEbF8gLylUuQ325gQ==
 
 inflight@^1.0.4:
   version "1.0.6"
