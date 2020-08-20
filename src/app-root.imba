@@ -32,7 +32,7 @@ tag app-root
 		min-height: 100vh
 	def render
 		<self%app>
-			<Logo>
+			<Logo[w:200px py:13]>
 			<Card>
 	###
 	Here we have some scoped CSS. Any css declared within a tag component is scoped to that component.
