@@ -40,7 +40,7 @@ yarn # npm install
 yarn start # npm start
 ```
 
-To see the app running open [http://localhost:10001] [0] in the browser.
+To see the app running open [http://localhost:10001][0] in the browser.
 
 Have fun!
 
