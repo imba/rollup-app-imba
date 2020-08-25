@@ -1,5 +1,5 @@
 # Imba 2 Template [![Netlify Status](https://api.netlify.com/api/v1/badges/57f0ad52-688e-4269-8cb1-77c32b61ee00/deploy-status)](https://app.netlify.com/sites/imba2-hello-world/deploys)
-
+![preview-image](https://raw.githubusercontent.com/imba/rollup-app-imba/master/preview.png)
 A local project starter template for a Imba v2-alpha.
 
 > You are running a bleeding 🩸edge project 👨🏾‍🚀👩🏼‍🚀. Expect bugs and report them❗
