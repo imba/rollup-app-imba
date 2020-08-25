@@ -1,4 +1,4 @@
-import {Add} from './tags/Add'
+import {Button} from './tags/Button'
 import {Logo} from './tags/Logo'
 
 let counter = 0
@@ -33,7 +33,7 @@ tag app-root
 	def render
 		<self%app>
 			<Logo[w:200px pt:12]>
-			<h2[mt:0 c:gray6 fs:2em ff:sans]> "+ Vite"
+			<h2[mt:0 c:gray6 fs:2em ff:sans]> "+ Rollup"
 			<Card>
 	###
 	Here we have some scoped CSS. Any css declared within a tag component is scoped to that component.
@@ -61,11 +61,11 @@ tag Card
 		console.log "reset to {counter}"
 	def render
 		<self>
-			<Add @click.incr> "{counter}"
+			<Button @click.incr> "{counter}"
 			<span.reset  @click.reset> "reset"
 	css &
 		bg:white ff:sans shadow:xl
-		min-width:300px py:2em px:2em br:2
+		min-width:300px py:2em px:2em rd:2
 		display:flex fld:column ai:justify
 		& .reset
 			fs:2xl
